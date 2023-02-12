@@ -17,6 +17,12 @@
           "appId": "d2gsbp2ulqhhsk",
           "type": "cicd"
         }
+      },
+      "auth": {
+        "amplifyreact": {}
+      },
+      "analytics": {
+        "amplifyreact": {}
       }
     }
   }

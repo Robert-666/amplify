@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import { Analytics } from 'aws-amplify';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    Analytics.record('App component mounted');
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
